@@ -5,3 +5,4 @@
 //   cy.get('.row').find('.col-lg-8').should('have.length', 1); 
 //   cy.get('.row').find('.col-lg-4').should('have.length', 1); 
 // }
+cy.get('.block-heading p').should('have.css', 'text-align', 'center');
